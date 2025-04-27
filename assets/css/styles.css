@@ -136,11 +136,7 @@ body.dark-theme {
 }
 
 .dark-theme .home__description b {
-  background: linear-gradient(
-    90deg,
-    #8000808a,
-    hsla(14, 80%, 50%, 0)
-  );
+  background: linear-gradient(90deg, #8000808a, hsla(14, 80%, 50%, 0));
 }
 
 .dark-theme :is(.button__ghost, .services__icon i) {
@@ -181,10 +177,9 @@ body.dark-theme {
   margin: auto;
 }
 
-.extra-nav{
+.extra-nav {
   padding: 0 1rem;
 }
-
 
 .grid {
   display: grid;
@@ -294,10 +289,11 @@ body.dark-theme {
 }
 
 /* Navigation for mobile devices */
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 2000px) {
   .nav__menu {
     position: fixed;
     top: -100%;
+    /* display: none; */
     left: 0;
     background-color: hsl(0, 0%, 0%, 0.75);
     width: 100%;
@@ -555,7 +551,7 @@ body.dark-theme {
 
 .button {
   background-color: var(--black-color);
-  padding: .7rem 1.5rem;
+  padding: 0.7rem 1.5rem;
   color: var(--white-color);
   font-weight: var(--font-medium);
   transition: background-color 0.4s;
@@ -656,7 +652,7 @@ body.dark-theme {
   color: var(--title-color);
   margin-bottom: 1.5rem;
 }
-.about__description span{
+.about__description span {
   font-size: 14px;
 }
 
@@ -676,26 +672,24 @@ body.dark-theme {
   margin-bottom: 3rem;
 }
 
-
-.personal-state{
+.personal-state {
   font-size: 14px;
 }
 
-.skill-set{
+.skill-set {
   font-size: 18px;
 }
 
-.skill-set f{
+.skill-set f {
   font-weight: 800;
   text-decoration: 4px underline var(--first-color);
 }
 
-.about__buttons  {
+.about__buttons {
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 1rem;
-
 }
 /*=============== SERVICES ===============*/
 .services__container {
